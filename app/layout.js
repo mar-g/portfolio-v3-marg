@@ -1,9 +1,14 @@
 import "./globals.css";
+import Theme from "@/components/Theme";
+import DarkLight from "@/components/DarkLight";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <Theme>
+        <DarkLight />
+        <body>{children}</body>
+      </Theme>
     </html>
   );
 }
