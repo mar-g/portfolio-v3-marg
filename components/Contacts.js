@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaTwitterSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -9,13 +9,14 @@ import { FaBehanceSquare } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
+import SectionWrapper from "./SectionWrapper";
 
 import Heading from "./Heading";
 import data from "@/data/contacts";
 
 export default function Contacts() {
   return (
-    <section className="border-t py-7 border-zinc-100 dark:border-zinc-800">
+    <SectionWrapper>
       <Heading>contacts</Heading>
       <div className="flex flex-wrap items-center gap-5">
         {data.map((contact) => (
@@ -29,7 +30,7 @@ export default function Contacts() {
               <FaGithub size={18} className="text-black dark:text-white" />
             )}
             {contact.name === "twitter" && (
-              <FaTwitterSquare
+              <FaSquareXTwitter
                 size={18}
                 className="text-black dark:text-white"
               />
@@ -70,12 +71,15 @@ export default function Contacts() {
                 className="text-black dark:text-white"
               />
             )}
-            <span className="text-base capitalize text-zinc-700 dark:text-white font-bold">
+            {contact.name === "medium" && (
+              <FaMedium size={18} className="text-black dark:text-white" />
+            )}
+            <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
               {contact.label}
             </span>
           </Link>
         ))}
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
