@@ -9,7 +9,7 @@ import Headerinfo from "./Headerinfo";
 export default function Header() {
   const { image, name, jobTitle, address, experience, education } = data;
   return (
-    <header className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8">
+    <header className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8 pb-7">
       <div className="w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-full overflow-hidden">
         <Image
           src={image}
