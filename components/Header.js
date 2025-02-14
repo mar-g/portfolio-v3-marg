@@ -9,8 +9,8 @@ import Headerinfo from "./Headerinfo";
 export default function Header() {
   const { image, name, jobTitle, address, experience, education } = data;
   return (
-    <div className="flex items-center gap-x-8">
-      <div className="w-[150px] h-[150px] relative rounded-full overflow-hidden">
+    <header className="flex flex-wrap md:flex-row flex-col items-center gap-y-9 gap-x-8">
+      <div className="w-[200px] md:w-[150px] h-[200px] md:h-[150px] relative rounded-full overflow-hidden">
         <Image
           src={image}
           fill
@@ -18,14 +18,14 @@ export default function Header() {
           className="w-full h-full object-cover hover:rotate-6 hover:scale-125 transition-all duration-500"
         />
       </div>
-      <div>
-        <h1 className="text-5xl font-black capitalize text-violet-700 dark:text-white">
+      <div className="flex-1 ">
+        <h1 className="text-4xl md:text-5xl font-black capitalize text-violet-700 dark:text-white">
           {name}
         </h1>
-        <h3 className="mt-2 text-xl font-bold capitalize dark:text-zinc-400">
+        <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
           {jobTitle}
         </h3>
-        <div className="flex items-center gap-x-4 mt-2">
+        <div className="flex flex-wrap items-center gap-y-1 gap-x-4 mt-2">
           <Headerinfo
             Icon={
               <FaMapMarkerAlt
@@ -55,6 +55,6 @@ export default function Header() {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
