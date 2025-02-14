@@ -1,3 +1,11 @@
+import Header from "@/components/Header";
+
 export default function Home() {
-  return <div className="text-3xl font-bold underline">test</div>;
+  return (
+    <main className="max-w-screen-xl w-full mx-auto px-4">
+      <div className="mt-20">
+        <Header />
+      </div>
+    </main>
+  );
 }
