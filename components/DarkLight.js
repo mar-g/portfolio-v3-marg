@@ -9,7 +9,7 @@ export default function DarkLight() {
   return (
     <div
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center"
+      className="fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center z-[99999]"
     >
       <span
         className={classNames(
