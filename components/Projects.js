@@ -20,7 +20,10 @@ export default function Projects() {
       <SectionWrapper>
         <Heading>projects</Heading>
         {data.map((project) => (
-          <div className="flex flex-wrap gap-5 w-full lg:w-8/12 mb-10">
+          <div
+            className="flex flex-wrap gap-5 w-full lg:w-8/12 mb-10"
+            key={project.id}
+          >
             <div className="relative w-full md:w-[120px] pt-[56.25%] md:pt-0 md:h-20 rounded-lg overflow-hidden">
               <Image
                 src={project.image}

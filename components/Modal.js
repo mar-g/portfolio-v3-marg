@@ -20,6 +20,7 @@ export default function Modal({ state, details, toggleModal }) {
                 src={details.image}
                 fill
                 className="w-full h-full absolute inset-0"
+                alt={details.title}
               />
             </div>
           </div>

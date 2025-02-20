@@ -9,7 +9,12 @@ export default function SkillComponent({ skill }) {
           "bg-white rounded-full": skill.name === "next",
         })}
       >
-        <Image src={skill.image} fill className="w-full h-full object-cover" />
+        <Image
+          src={skill.image}
+          fill
+          className="w-full h-full object-cover"
+          alt={skill.name}
+        />
       </div>
       <span className="text-zinc-700 dark:text-white capitalize text-sm md:text-base font-bold">
         {skill.name}
