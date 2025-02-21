@@ -12,6 +12,7 @@ export default function SkillComponent({ skill }) {
         <Image
           src={skill.image}
           fill
+          sizes="auto"
           className="w-full h-full object-cover"
           alt={skill.name}
         />

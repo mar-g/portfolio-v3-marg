@@ -28,6 +28,7 @@ export default function Projects() {
               <Image
                 src={project.image}
                 fill
+                sizes="auto"
                 className="w-full h-full absolute top-0 left-0 bottom-0 right-0"
                 alt="project image"
               />

@@ -55,6 +55,7 @@ export default function Reviews() {
                   <Image
                     src={rating.image}
                     fill
+                    sizes="auto"
                     alt="client image"
                     className="w-full h-full object-cover"
                   />

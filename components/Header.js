@@ -14,6 +14,7 @@ export default function Header() {
         <Image
           src={image}
           fill
+          sizes="auto"
           alt="profile image"
           className="w-full h-full object-cover hover:rotate-6 hover:scale-125 transition-all duration-500"
         />

@@ -18,7 +18,9 @@ export default function Modal({ state, details, toggleModal }) {
             <div className="pt-[56.25%]">
               <Image
                 src={details.image}
-                fill
+                sizes="auto"
+                width={0}
+                height={0}
                 className="w-full h-full absolute inset-0"
                 alt={details.title}
               />
