@@ -7,6 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Nunito", "sans-serif"],
+    },
     extend: {},
   },
   plugins: [],
