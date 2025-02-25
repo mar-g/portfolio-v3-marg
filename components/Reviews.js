@@ -18,8 +18,7 @@ export default function Reviews() {
         </strong>
       </h1>
       <p className="text-lg font-medium w-full lg:w-6/12 mb-10 mt-5 leading-[22px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-        ducimus eum quia non veritatis soluta.
+        Sample Testimonials
       </p>
       <div className="relative w-full">
         {data.length !== count ? (

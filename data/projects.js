@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: "Build Amazone clone in Next.js, Node.js and TypeScript",
+    title: "Portfolio v2",
     image: "/projects/portfolio-v2.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    title: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
+    title: "Magic Memory",
     image: "/projects/magic-memory.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
@@ -30,8 +30,7 @@ const data = [
 
   {
     id: 3,
-    title:
-      "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
+    title: "Eat-n-split",
     image: "/projects/eat-n-split.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
@@ -45,7 +44,7 @@ const data = [
   },
   {
     id: 4,
-    title: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+    title: "Tic Tac Toe",
     image: "/projects/tic-tac-toe.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
@@ -59,7 +58,7 @@ const data = [
   },
   {
     id: 5,
-    title: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+    title: "Taskmate",
     image: "/projects/taskmate.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
@@ -73,7 +72,7 @@ const data = [
   },
   {
     id: 6,
-    title: "Build Upwork clone using Next.js 14, TypeScript and Graphql",
+    title: "Portfolio v1",
     image: "/projects/portfolio-v1.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",

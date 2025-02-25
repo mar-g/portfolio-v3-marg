@@ -1,6 +1,6 @@
 const data = {
   image: "/images/profile.jpg",
-  name: "Lorem, ipsum dolor.",
+  name: "Marcin G.",
   jobTitle: "Lorem ipsum dolor sit amet.",
   address: "Lorem, ipsum.",
   experience: "Lorem ipsum dolor sit amet consectetur adipisicing.",
