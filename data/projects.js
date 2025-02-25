@@ -6,50 +6,42 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "node", image: "/skills/node-js.png" },
-      { id: 6, name: "mongodb", image: "/skills/mongodb.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/portfolio-v2",
+    demo: "https://portfolio-v2-marg.netlify.app/",
   },
   {
     id: 2,
     title: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
-    image: "/projects/magic-match.png",
+    image: "/projects/magic-memory.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "graphql", image: "/skills/graphql.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "react", image: "/skills/react.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/magic-memory",
+    demo: "https://magic-memory-marg.netlify.app/",
   },
 
   {
     id: 3,
     title:
       "Build a Decentralized Charity Platform with Next.js, TypeScript, and Solidity",
-    image: "/projects/split.png",
+    image: "/projects/eat-n-split.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "solidity", image: "/skills/ethereum.png" },
-      { id: 6, name: "hardhat", image: "/skills/hardhat.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "react", image: "/skills/react.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/eat-n-split",
+    demo: "https://eat-n-split-marg.netlify.app/",
   },
   {
     id: 4,
@@ -58,14 +50,12 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "solidity", image: "/skills/graphql.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "react", image: "/skills/react.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/tic-tac-toe",
+    demo: "https://tic-tac-toe-marg.netlify.app/",
   },
   {
     id: 5,
@@ -74,14 +64,12 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "solidity", image: "/skills/graphql.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "react", image: "/skills/react.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/taskmate",
+    demo: "https://taskmate-marg.netlify.app/",
   },
   {
     id: 6,
@@ -90,14 +78,12 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
-      { id: 1, name: "react", image: "/skills/react.png" },
-      { id: 2, name: "typescript", image: "/skills/typescript.png" },
-      { id: 3, name: "next", image: "/skills/next-js.png" },
-      { id: 4, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 5, name: "solidity", image: "/skills/graphql.png" },
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "JavaScript", image: "/skills/javascript.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/mar-g/portfolio-v1",
+    demo: "https://portfolio-v1-marg.netlify.app/",
   },
 ];
 export default data;
