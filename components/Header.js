@@ -40,7 +40,7 @@ export default function Header() {
             Icon={
               <BsTerminalFill
                 className="text-violet-700 dark:text-zinc-400"
-                size={16}
+                size={15}
               />
             }
             title={experience}
@@ -49,7 +49,7 @@ export default function Header() {
             Icon={
               <IoIosSchool
                 className="text-violet-700 dark:text-zinc-400"
-                size={16}
+                size={19}
               />
             }
             title={education}

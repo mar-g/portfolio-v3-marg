@@ -1,5 +1,5 @@
 const data = {
   heading: "Hello Everyone",
-  bio: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, cumque saepe doloremque, fugit minus obcaecati ea, numquam iusto explicabo similique illum. Id dolores facilis ipsam sed autem repellat illo est?",
+  bio: "My name is Marcin, and my educational background is in computer network administration. However, my true passion lies in programming — starting with Pascal and now focusing on JavaScript. I am committed to continuous learning, embracing new challenges, and adapting to change. I am goal-driven and highly value opportunities for growth and professional development.",
 };
 export default data;

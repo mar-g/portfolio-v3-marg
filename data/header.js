@@ -1,9 +1,9 @@
 const data = {
   image: "/images/profile.jpg",
   name: "Marcin G.",
-  jobTitle: "Lorem ipsum dolor sit amet.",
-  address: "Poland",
-  experience: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-  education: "Lorem ipsum dolor sit.",
+  jobTitle: "Network & Software Engineer",
+  address: "Lodz, Poland",
+  experience: "Linux System Administration",
+  education: "Degree in Network Engineering",
 };
 export default data;
