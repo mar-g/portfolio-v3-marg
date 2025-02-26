@@ -35,7 +35,7 @@ export default function Projects() {
             </div>
             <div className="flex-1">
               <div className="flex space-x-3">
-                <h2 className="text-lg md:text-xl font:bold text-zinc-700 dark:text-zinc-400 leading-[25px]">
+                <h2 className="text-lg md:text-xl font:bold text-zinc-800 dark:text-zinc-400 leading-[25px]">
                   {project.title}
                 </h2>
                 <FaArrowTrendUp

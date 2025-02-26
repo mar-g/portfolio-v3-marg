@@ -4,7 +4,7 @@ const data = [
     title: "Portfolio v2",
     image: "/projects/portfolio-v2.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "This is a sample portfolio website designed to showcase your projects, skills, and achievements. It serves as a template that you can customize for your own professional journey. Feel free to use it as inspiration or adapt it to your needs!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
@@ -18,7 +18,7 @@ const data = [
     title: "Magic Memory",
     image: "/projects/magic-memory.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "Test your memory and concentration in this fun matching game! Flip the cards to find pairs and complete the board as fast as possible. Challenge yourself and improve your memory skills!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
@@ -33,7 +33,7 @@ const data = [
     title: "Eat-n-split",
     image: "/projects/eat-n-split.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "Easily split bills and track shared expenses with friends or roommates. The app calculates who owes whom and how much, making it simple to settle up and avoid confusion. Perfect for group meals, trips, or any shared cost!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
@@ -47,7 +47,7 @@ const data = [
     title: "Tic Tac Toe",
     image: "/projects/tic-tac-toe.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "Play Tic Tac Toe online with a simple and clean interface. Challenge a friend and enjoy a smooth, responsive gameplay experience. Perfect for quick matches and casual fun!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
@@ -61,7 +61,7 @@ const data = [
     title: "Taskmate",
     image: "/projects/taskmate.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "Manage your tasks easily with a simple and intuitive To-Do List app. Add, edit, and delete tasks effortlessly. Stay productive and keep track of your daily goals!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
@@ -75,7 +75,7 @@ const data = [
     title: "Portfolio v1",
     image: "/projects/portfolio-v1.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "This is a sample portfolio website designed to showcase your projects, skills, and achievements. It serves as a template that you can customize for your own professional journey. Feel free to use it as inspiration or adapt it to your needs!",
     skills: [
       { id: 1, name: "HTML", image: "/skills/html-5.png" },
       { id: 2, name: "CSS", image: "/skills/css3.png" },
