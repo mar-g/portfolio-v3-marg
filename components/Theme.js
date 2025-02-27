@@ -13,7 +13,7 @@ export default function Theme({ children }) {
     return null;
   }
   return (
-    <ThemeProvider defaultTheme="dark" attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       {children}
     </ThemeProvider>
   );

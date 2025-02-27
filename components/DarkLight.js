@@ -5,21 +5,22 @@ import { useTheme } from "next-themes";
 import classNames from "classnames";
 
 export default function DarkLight() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
+  console.log(resolvedTheme);
   return (
     <div
-      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
       className="fixed top-4 right-4 w-12 h-[18px] rounded-full bg-violet-300 flex items-center z-[99999]"
     >
       <span
         className={classNames(
           "w-7 h-7 flex items-center justify-center bg-violet-700 rounded-full transition-all duration-500",
           {
-            "ml-5": theme === "dark",
+            "ml-5": resolvedTheme === "dark",
           }
         )}
       >
-        {theme === "light" ? (
+        {resolvedTheme === "light" ? (
           <FaCloudMoon className="text-white" size={14} />
         ) : (
           <LuSunMoon className="text-white" size={14} />
