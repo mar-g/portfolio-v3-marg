@@ -10,7 +10,6 @@ import { FaMedium } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
 import SectionWrapper from "./SectionWrapper";
-
 import Heading from "./Heading";
 import data from "@/data/contacts";
 

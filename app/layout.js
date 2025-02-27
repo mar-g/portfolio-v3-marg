@@ -3,7 +3,7 @@ import Theme from "@/components/Theme";
 import DarkLight from "@/components/DarkLight";
 
 export const metadata = {
-  title: "portfolio-v3-marg",
+  title: "Marcin G.",
 };
 
 export default function RootLayout({ children }) {
