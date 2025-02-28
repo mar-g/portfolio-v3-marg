@@ -4,8 +4,12 @@ import SkillComponent from "./SkillComponent";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { TfiWorld } from "react-icons/tfi";
+import { useEffect } from "react";
 
 export default function Modal({ state, details, toggleModal }) {
+  useEffect(() => {
+    document.body.style.overflow = state ? "hidden" : "visible";
+  });
   return state ? (
     <div className="fixed inset-0 w-full h-screen bg-black/25 p-4 backdrop-blur z-[999999] flex items-center justify-center">
       <MdClose
