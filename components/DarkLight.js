@@ -3,10 +3,19 @@ import { FaCloudMoon } from "react-icons/fa";
 import { LuSunMoon } from "react-icons/lu";
 import { useTheme } from "next-themes";
 import classNames from "classnames";
+import { useEffect, useState } from "react";
 
 export default function DarkLight() {
   const { theme, setTheme, resolvedTheme } = useTheme();
-  console.log(resolvedTheme);
+  const [state, setState] = useState(false);
+
+  useEffect(() => {
+    setState(true);
+  }, []);
+
+  if (!state) {
+    return null;
+  }
   return (
     <div
       onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
