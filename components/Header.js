@@ -2,8 +2,8 @@
 import Image from "next/image";
 import data from "../data/header";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { BsTerminalFill } from "react-icons/bs";
-import { IoIosSchool } from "react-icons/io";
+import { IoTerminal } from "react-icons/io5";
+import { IoSchoolSharp } from "react-icons/io5";
 import Headerinfo from "./Headerinfo";
 
 export default function Header() {
@@ -38,18 +38,18 @@ export default function Header() {
           />
           <Headerinfo
             Icon={
-              <BsTerminalFill
+              <IoTerminal
                 className="text-violet-700 dark:text-zinc-400"
-                size={15}
+                size={16}
               />
             }
             title={experience}
           />
           <Headerinfo
             Icon={
-              <IoIosSchool
+              <IoSchoolSharp
                 className="text-violet-700 dark:text-zinc-400"
-                size={19}
+                size={16}
               />
             }
             title={education}

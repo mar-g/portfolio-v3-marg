@@ -1,6 +1,20 @@
 const data = [
   {
     id: 1,
+    title: "Foodies",
+    image: "/projects/foodies.png",
+    description:
+      "NextLevel Food is a platform for foodies to share their favorite recipes with the world. It's a place to discover new dishes, and to connect with other food lovers. NextLevel Food is a place to discover new dishes, and to connect with other food lovers.",
+    skills: [
+      { id: 1, name: "HTML", image: "/skills/html-5.png" },
+      { id: 2, name: "CSS", image: "/skills/css3.png" },
+      { id: 3, name: "next", image: "/skills/next-js.png" },
+    ],
+    source_code: "https://github.com/mar-g/foodies",
+    demo: "https://martinus.ct8.pl/",
+  },
+  {
+    id: 2,
     title: "Portfolio v2",
     image: "/projects/portfolio-v2.png",
     description:
@@ -14,7 +28,7 @@ const data = [
     demo: "https://portfolio-v2-marg.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Magic Memory",
     image: "/projects/magic-memory.png",
     description:
@@ -29,7 +43,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Eat-n-split",
     image: "/projects/eat-n-split.png",
     description:
@@ -43,7 +57,7 @@ const data = [
     demo: "https://eat-n-split-marg.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tic Tac Toe",
     image: "/projects/tic-tac-toe.png",
     description:
@@ -57,7 +71,7 @@ const data = [
     demo: "https://tic-tac-toe-marg.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Taskmate",
     image: "/projects/taskmate.png",
     description:
@@ -71,7 +85,7 @@ const data = [
     demo: "https://taskmate-marg.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio v1",
     image: "/projects/portfolio-v1.png",
     description:
