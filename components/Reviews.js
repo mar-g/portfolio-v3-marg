@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Heading from "./Heading";
 import SectionWrapper from "./SectionWrapper";
 import data from "@/data/reviews";

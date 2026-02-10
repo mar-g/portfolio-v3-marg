@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -20,9 +21,16 @@ export default function Contacts() {
       <div className="flex flex-wrap items-center gap-5">
         {data.map((contact) => (
           <Link
-            href={contact.link}
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              if (contact.link.startsWith("mailto:")) {
+                window.location.href = contact.link;
+              } else {
+                window.open(contact.link, "_blank");
+              }
+            }}
             key={contact.id}
-            target="_blank"
             className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
           >
             {contact.name === "github" && (
