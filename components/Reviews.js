@@ -7,24 +7,24 @@ import Masonry from "react-masonry-css";
 import { useState } from "react";
 
 export default function Reviews() {
-  const [count, setCount] = useState(6);
+  const [count, setCount] = useState(3);
   return (
     <SectionWrapper>
       <Heading>Testimonials</Heading>
       <h1 className="text-3xl md:text-5xl font-black capitalize mt-5">
         what{" "}
         <strong className="text-violet-600 dark:text-zinc-400">
-          people say
+          i focus on
         </strong>
       </h1>
-      <p className="text-lg font-medium w-full lg:w-6/12 mb-10 mt-5 leading-[22px]">
-        Sample Testimonials
+      <p className="text-lg font-medium w-full lg:w-6/12 mb-10 mt-5 leading-[22px] dark:text-zinc-400">
+        Based on my learning journey and approach to projects
       </p>
       <div className="relative w-full">
         {data.length !== count ? (
           <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90 from-[50%] to-transparent flex justify-center items-end z-[9999]">
             <button
-              onClick={() => setCount(count + 6)}
+              onClick={() => setCount(count + 3)}
               className="h-[45px] bg-violet-600 text-white rounded-lg font-medium text-base capitalize px-4"
             >
               show more
@@ -61,15 +61,15 @@ export default function Reviews() {
                 </div>
                 <div className="flex-1">
                   <h1 className="font-bold text-lg capitalize text-zinc-900 dark:text-zinc-300">
-                    {rating.name}
+                    {rating.title}
                   </h1>
                   <span className="block mt-[1px] text-base text-zinc-500 dark:text-zinc-300 capitalize font-medium leading-[20px]">
-                    {rating.company}
+                    {rating.subtitle}
                   </span>
                 </div>
               </div>
               <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
-                {rating.comment}
+                {rating.text}
               </p>
             </div>
           ))}
