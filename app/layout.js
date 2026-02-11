@@ -27,6 +27,9 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+        <meta name="apple-mobile-web-app-title" content="Marcin G." />
+        <link rel="apple-touch-icon" href="/web-app-manifest-192x192.png" />
       </head>
       <body className="bg-white dark:bg-[color:#1C1B22]">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
