@@ -17,6 +17,7 @@ export default function Header() {
           sizes="auto"
           alt="profile image"
           className="w-full h-full object-cover hover:rotate-6 hover:scale-125 transition-all duration-500"
+          loading="eager"
         />
       </div>
       <div className="flex-1 ">

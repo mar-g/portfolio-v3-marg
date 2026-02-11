@@ -6,6 +6,14 @@ export const metadata = {
   title: "Marcin G.",
 };
 
+const fullName = "Marcin Górniakowski";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: fullName,
+  url: "https://mget.pl",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -14,8 +22,13 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         />
+        <meta name="author" content={fullName} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
-      <body>
+      <body className="bg-white dark:bg-[color:#1C1B22]">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <DarkLight />
           {children}

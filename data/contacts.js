@@ -9,7 +9,7 @@ const data = [
     id: 2,
     name: "email",
     label: "email",
-    link: "mailto:marg.dev@outlook.com",
+    link: "mailto:marcin@mget.pl",
   },
 ];
 export default data;

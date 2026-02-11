@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  /* Your default theme */
+/* :root {
   --background: white;
   --foreground: black;
 }
@@ -11,7 +10,7 @@
 [data-theme="dark"] {
   --background: black;
   --foreground: white;
-}
+} */
 
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */

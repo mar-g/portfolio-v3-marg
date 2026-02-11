@@ -21,7 +21,7 @@ export default function Reviews() {
       </p>
       <div className="relative w-full">
         {data.length !== count ? (
-          <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90 from-[50%] to-transparent flex justify-center items-end z-[9999]">
+          <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#1C1B22]/80 from-[50%] to-transparent flex justify-center items-end z-[9999]">
             <button
               onClick={() => setCount(count + 3)}
               className="h-[45px] bg-violet-600 text-white rounded-lg font-medium text-base capitalize px-4"
